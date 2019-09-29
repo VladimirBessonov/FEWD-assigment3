@@ -46,7 +46,7 @@ div#solutions p::first-line {
     font-weight: bold
 }
 
-.pricing  div {
+section.pricing div {
     
     border: solid #929CA4;
     border-radius: 5px;
