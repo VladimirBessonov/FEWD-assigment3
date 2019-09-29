@@ -61,7 +61,7 @@ section.pricing div {
 
 .pricing div img  {
     float: none;
-    
+    margin-bottom: 0px;
 }
 
 .pricing {
