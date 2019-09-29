@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+body {
+    width:960px;
+    margin-left:20px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    
+}
+
+ul:first-of-type {
+    list-style-type: none;
+    margin: 0ex;
+}
+
+h2 {
+    padding-left: 1em;
+    background-color: #DFE3E6;
+    color: #CC1C0D;
+    border: solid #929CA4;
+    border-radius: 5px;
+    border-width: thin;
+
+}
+
+a {
+    color: #CC1C0D;
+}
+
+section img[width="80"]  {
+    float:left; 
+    margin: 10px 10px 10px 0;
+    border: solid #CC1C0D;
+    border-radius: 40%;
+    border-width: thin;
+}
+
+div img  {
+    float:left; 
+    margin: 10px 10px 10px 0;
+}
+
+div#solutions p::first-line {
+    font-weight: bold
+}
+
+.pricing  div {
+    
+    border: solid #929CA4;
+    border-radius: 5px;
+    flex: 25%;
+    text-align: center;
+    border-width: thin;
+    margin: 8px;
+    box-sizing: border-box;
+
+
+}
+
+.pricing div img  {
+    float: none;
+    
+}
+
+.pricing {
+    display: flex;
+   
+} 
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+/* #CC1C0D, #37A4A4, #685288, and #000000 */
